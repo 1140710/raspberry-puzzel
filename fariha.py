@@ -1,4 +1,4 @@
-[22-12-23 13:15] Al-Muhana, Rami
+
 import RPi.GPIO as GPIO
 
 import time
