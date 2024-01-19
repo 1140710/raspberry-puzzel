@@ -21,8 +21,8 @@ try:
 
     GPIO.output(rood_pin, GPIO.HIGH)
     GPIO.output(blauw_pin, GPIO.HIGH)
-    GPIO.output(gele_pin, GPIO.HIGH)
-    
+    # GPIO.output(gele_pin, GPIO.HIGH)
+
 
 except KeyboardInterrupt:
     print("Cleaning up GPIO")
