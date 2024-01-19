@@ -19,4 +19,5 @@ GPIO.setup(groen_pin,GPIO.OUT)
 GPIO.setup(gele_pin,GPIO.OUT)
 
 GPIO.output(rood_pin, GPIO.HIGH)
+GPIO.output(blauw_pin, GPIO.HIGH)
 
