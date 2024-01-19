@@ -26,6 +26,7 @@ try:
 
 except KeyboardInterrupt:
     print("Cleaning up GPIO")
+    GPIO.cleanup()
 
 finally:
     GPIO.cleanup()
