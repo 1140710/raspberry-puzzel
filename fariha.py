@@ -196,4 +196,5 @@ except KeyboardInterrupt:
 finally:
 
     GPIO.cleanup()  # Clean up GPIO to ensure it is reset
+    #okok
  
